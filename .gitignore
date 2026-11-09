@@ -1,0 +1,27 @@
+# Android Studio & Gradle
+*.iml
+.gradle/
+build/
+*/build/
+/local.properties
+local.properties
+
+# Android Studio IDE
+.idea/
+.kotlin/
+.DS_Store
+
+# Native build artifacts
+.externalNativeBuild/
+*/.externalNativeBuild/
+.cxx/
+*/.cxx/
+*.so
+
+# Captures and profiling
+/captures/
+*.hprof
+
+# Built APKs & release output folders
+app/release/
+*.apk

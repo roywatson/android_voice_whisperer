@@ -1,0 +1,9 @@
+# JNI & Whisper Native Bridge R8 / ProGuard Keep Rules
+# Preserves JNI method signatures, native models, and callback data classes from obfuscation.
+
+-keep class com.roywatson.android_voice_whisperer.whisper.** { *; }
+-keep class com.roywatson.android_voice_whisperer.domain.model.** { *; }
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
